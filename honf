@@ -1,0 +1,81 @@
+{
+  "scenarios": [
+    {
+      "name": "시작",
+      "type": "text",
+      "message": "안녕하세요! 😊\n무엇을 도와드릴까요?\n아래에서 문의 유형을 선택해주세요.",
+      "options": [
+        {
+          "label": "📊 재무",
+          "next": "재무"
+        },
+        {
+          "label": "🎓 교육/DB",
+          "next": "교육DB"
+        },
+        {
+          "label": "📝 보증/시험/위촉",
+          "next": "보증시험위촉"
+        },
+        {
+          "label": "📋 제도/규정",
+          "next": "제도규정"
+        },
+        {
+          "label": "💰 수당/수수료/부동산",
+          "next": "수당수수료부동산"
+        },
+        {
+          "label": "📢 마케팅/행사",
+          "next": "마케팅행사"
+        },
+        {
+          "label": "🎉 기타문의",
+          "next": "기타문의"
+        }
+      ]
+    },
+    {
+      "name": "재무",
+      "type": "handover",
+      "message": "📊 재무 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "scyouth"
+    },
+    {
+      "name": "교육DB",
+      "type": "handover",
+      "message": "🎓 교육/DB 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "metyhs"
+    },
+    {
+      "name": "보증시험위촉",
+      "type": "handover",
+      "message": "📝 보증/시험/위촉 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "iyojoung74"
+    },
+    {
+      "name": "제도규정",
+      "type": "handover",
+      "message": "📋 제도/규정 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "kimsann"
+    },
+    {
+      "name": "수당수수료부동산",
+      "type": "handover",
+      "message": "💰 수당/수수료/부동산 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "matiz_xg"
+    },
+    {
+      "name": "마케팅행사",
+      "type": "handover",
+      "message": "📢 마케팅/행사 관련 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "honf0801"
+    },
+    {
+      "name": "기타문의",
+      "type": "handover",
+      "message": "🎉 기타 문의가 접수되었습니다. 담당자에게 연결합니다.",
+      "agentId": "honf0801"
+    }
+  ]
+}
